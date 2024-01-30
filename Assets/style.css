@@ -4,13 +4,11 @@
   body {
     padding: 0;
     margin: 0;
-    width: 115.5vh;
+    width: 115svh;
   }
   .topo_superior {
     background-color: #fff;
-    padding-top: 2vh;
-    padding-left: 2vh;
-    padding-right: 2vh;
+    margin: 3vh;
   }
   .topo_01 {
     display: flex;
