@@ -4,7 +4,7 @@
   body {
     padding: 0;
     margin: 0;
-    width: 70vh;
+    width: 60%;
   }
   .topo_superior {
     background-color: #fff;
@@ -239,7 +239,7 @@
   }
   .footer {
     width: 70vh;
-    height: 140vh;
+    height: 118vh;
     background: var(--dark-gray, #1f1f1f);
     padding: 2vh;
     padding-top: 5vh;
@@ -323,5 +323,27 @@
     font-weight: 400;
     line-height: 31px;
     margin-left: 2vh;
+  }
+  .title_footer {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: var(--white, #fff);
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px;
+    margin-left: 2vh;
+  }
+  .hr_footer {
+    margin: 4vh;
+    fill: var(--white, #fff);
+    opacity: 0.3;
+  }
+  .final_footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
   }
 }
