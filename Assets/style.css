@@ -1,0 +1,242 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue&family=Inter&display=swap");
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  body {
+    padding: 0;
+    margin: 0;
+    width: 115.5vh;
+  }
+  .topo_superior {
+    background-color: #fff;
+    padding-top: 2vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+  }
+  .topo_01 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .lado_esquerdo p {
+    font-family: "Epilogue", sans-serif;
+    color: var(--GrayScale-Title-Active, #222);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+  }
+  .lado_direito img {
+    width: 4vh;
+    height: 2.5vh;
+    margin-left: 1vh;
+    padding-top: 3vh;
+    padding-right: 1vh;
+  }
+  .text_topo {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1vh;
+    margin-top: 1vh;
+    padding-right: 1vh;
+  }
+  .text_topo .a img {
+    width: 4vh;
+    height: 4vh;
+  }
+  .text_topo .b img {
+    width: 5vh;
+    height: 5vh;
+    padding-top: 0.5vh;
+  }
+  .text_topo .b h1 {
+    color: var(--primary, #c92071);
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 900;
+    font-weight: bolder;
+    line-height: normal;
+    letter-spacing: -0.199px;
+    margin-top: -6.5vh;
+    padding-left: 5vh;
+  }
+  .text_topo .c p {
+    width: 2.5vh;
+    height: 2.5vh;
+    border-radius: 20px;
+    background-color: #d42f7f;
+  }
+  .text_topo .c p {
+    color: var(--dark-gray, #ffffff);
+    font-family: Inter;
+    font-size: 0.4rem;
+    font-weight: 600;
+    text-align: center;
+    font-style: normal;
+    line-height: 14px;
+    margin-top: -5.5vh;
+    margin-left: 6vh;
+  }
+  .main {
+    width: 100%;
+    height: 345vh;
+    background: #f9f8fe;
+    display: flex;
+    flex-direction: column;
+    padding-top: 4vh;
+    padding-left: 6.5vh;
+    padding-right: 6.5vh;
+  }
+  .main h4 {
+    color: var(--dark-gray, #1f1f1f);
+    font-family: Inter;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 34px;
+    letter-spacing: 2px;
+    padding-left: 35vh;
+  }
+  .caixa_a {
+    width: 72%;
+    height: 115vh;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding-top: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+  }
+  .caixa_a p {
+    color: var(--dark-gray-2, #474747);
+    font-family: Inter;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    padding-bottom: 2vh;
+  }
+  .caixa_a input {
+    width: 96%;
+    height: 10vh;
+    border: 0;
+    border-radius: 8px;
+    opacity: 1.3;
+    background: #f9f8fe;
+    padding-left: 3vh;
+  }
+  .caixa_a .text_a {
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    padding-top: 2vh;
+    margin-bottom: -0.5vh;
+  }
+  .caixa_a input::placeholder {
+    color: var(--dark-gray-3, #666);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .caixa_b {
+    width: 72%;
+    height: 128vh;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding-top: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    margin-top: 4vh;
+  }
+  .caixa_b h4 {
+    color: var(--dark-gray-2, #474747);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    margin-top: -1vh;
+    padding-bottom: 2vh;
+    margin-left: -35vh;
+    text-align: start;
+  }
+  .caixa_b h4 hr {
+    margin-top: 2vh;
+  }
+  .caixa_b .text_a {
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-style: normal;
+    color: var(--dark-gray-2, #474747);
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    padding-top: 2vh;
+    margin-bottom: 1vh;
+  }
+  .caixa_b input {
+    width: 96%;
+    height: 10vh;
+    border: 0;
+    border-radius: 8px;
+    opacity: 1.3;
+    background: #f9f8fe;
+    padding-left: 3vh;
+  }
+  .caixa_b input::placeholder {
+    color: var(--dark-gray-3, #666);
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+  }
+  .caixa_c img {
+    width: 5vh;
+    height: 5vh;
+    margin-top: 6vh;
+  }
+  .caixa_c p {
+    width: 75%;
+    color: var(--dark-gray-2, #474747);
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.75px;
+    padding-left: 6vh;
+    margin-top: -6vh;
+  }
+  .caixa_c button {
+    width: 50%;
+    height: 10vh;
+    display: block;
+    align-items: center;
+    background-color: #c92071;
+    list-style: none;
+    text-decoration: none;
+    border: 0;
+    border-radius: 8px;
+    color: var(--light-gray-3, #f5f5f5);
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.75px;
+    margin-left: 24vh;
+    margin-top: 8vh;
+  }
+  .caixa_c a {
+    text-decoration: none;
+    display: block;
+    align-items: center;
+  }
+}
