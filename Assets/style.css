@@ -4,7 +4,7 @@
   body {
     padding: 0;
     margin: 0;
-    width: 60%;
+    width: 100%;
   }
   .topo_superior {
     background-color: #fff;
@@ -75,14 +75,12 @@
     margin-left: 6vh;
   }
   .main {
-    width: 70vh;
-    height: 345vh;
+    width: 100%;
+    height: 340vh;
     background: #f9f8fe;
     display: flex;
     flex-direction: column;
     padding-top: 4vh;
-    padding-left: 2vh;
-    padding-right: 2vh;
   }
   .main h4 {
     color: var(--dark-gray, #1f1f1f);
@@ -92,16 +90,19 @@
     font-weight: 900;
     line-height: 34px;
     letter-spacing: 2px;
-    padding-left: 35vh;
+    display: flex;
+    justify-content: center;
   }
   .caixa_a {
-    width: 40vh;
+    width: 75%;
     height: 115vh;
     background-color: #ffffff;
     border-radius: 8px;
     padding-top: 10vh;
     padding-left: 10vh;
     padding-right: 10vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
   }
   .caixa_a p {
     color: var(--dark-gray-2, #474747);
@@ -141,7 +142,7 @@
     line-height: 22px;
   }
   .caixa_b {
-    width: 72%;
+    width: 75%;
     height: 128vh;
     background-color: #ffffff;
     border-radius: 8px;
@@ -149,6 +150,8 @@
     padding-left: 10vh;
     padding-right: 10vh;
     margin-top: 4vh;
+    margin-left: 4vh;
+    margin-right: 4vh;
   }
   .caixa_b h4 {
     color: var(--dark-gray-2, #474747);
@@ -198,6 +201,7 @@
     width: 5vh;
     height: 5vh;
     margin-top: 6vh;
+    margin-left: 4vh;
   }
   .caixa_c p {
     width: 75%;
@@ -208,14 +212,12 @@
     font-weight: 700;
     line-height: 22px;
     letter-spacing: 0.75px;
-    padding-left: 6vh;
     margin-top: -6vh;
+    margin-left: 10vh;
   }
   .caixa_c button {
     width: 50%;
     height: 10vh;
-    display: block;
-    align-items: center;
     background-color: #c92071;
     list-style: none;
     text-decoration: none;
@@ -229,24 +231,22 @@
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.75px;
-    margin-left: 24vh;
-    margin-top: 8vh;
+    margin-left: 30vh;
   }
   .caixa_c a {
     text-decoration: none;
-    display: block;
-    align-items: center;
   }
   .footer {
-    width: 70vh;
-    height: 118vh;
+    width: 100%;
+    height: 124vh;
     background: var(--dark-gray, #1f1f1f);
-    padding: 2vh;
     padding-top: 5vh;
   }
-  .footer_02 {
-    display: flex;
-    justify-content: start;
+  .footer .logo_footer img {
+    width: 4vh;
+    height: 4vh;
+    margin-left: 5vh;
+    padding-top: 4vh;
   }
   .footer h4 {
     color: var(--white, #fff);
@@ -256,13 +256,8 @@
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.245px;
-    margin-left: 5vh;
-    margin-top: -4.5vh;
-  }
-  .footer img {
-    width: 3vh;
-    height: 3vh;
-    margin-left: 2vh;
+    margin-left: 9.5vh;
+    margin-top: -5vh;
   }
   .footer p {
     width: 60vh;
@@ -271,11 +266,22 @@
     margin-top: -2vh;
     color: var(--white, #fff);
     font-family: Inter;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     font-style: normal;
     font-weight: 500;
     line-height: 22px;
     letter-spacing: 0.25px;
+    margin-left: 5vh;
+  }
+  .footer .imagem_footer img {
+    width: 3.5vh;
+    height: 3.5vh;
+    margin-top: 2vh;
+    margin-left: 5vh;
+  }
+  .footer_02 {
+    display: flex;
+    justify-content: start;
   }
   .footer_02a {
     padding-right: 10vh;
@@ -287,7 +293,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    padding-left: 2vh;
+    margin-left: 5vh;
     margin-bottom: 1vh;
   }
   .footer_02a a {
@@ -300,7 +306,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 31px;
-    margin-left: 2vh;
+    margin-left: 5vh;
   }
   .footer_02b h6 {
     color: var(--white, #fff);
@@ -309,7 +315,7 @@
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    padding-left: 2vh;
+    margin-left: 14vh;
     margin-bottom: 1vh;
   }
   .footer_02b a {
@@ -322,7 +328,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 31px;
-    margin-left: 2vh;
+    margin-left: 14vh;
   }
   .title_footer {
     display: flex;
@@ -334,16 +340,17 @@
     font-style: normal;
     font-weight: 400;
     line-height: 31px;
-    margin-left: 2vh;
+    margin-left: 5vh;
   }
   .hr_footer {
-    margin: 4vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
+    margin-bottom: 3vh;
     fill: var(--white, #fff);
     opacity: 0.3;
   }
   .final_footer {
-    display: flex;
-    justify-content: center;
     margin-top: 3vh;
+    padding-left: 37vh;
   }
 }
